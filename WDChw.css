@@ -1,0 +1,210 @@
+.data-right {
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+
+.tealbox {
+    position: relative;
+    top: 5%;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    width: 103px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.purplebox {
+    position: relative;
+    top: 5%;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    width: 350px;
+    margin: 20px;
+    padding: 8px;
+}
+
+.greybox {
+    position: relative;
+    top: 5%;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    width: 320px;
+    margin: 20px;
+    padding: 5px;
+}
+
+.greenbox {
+    position: relative;
+    top: 5%;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    width: 178px;
+    margin: 20px;
+    padding: 5px;
+}
+
+.redbox {
+    position: relative;
+    top: 5%;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    width: 210px;
+    margin: 20px;
+    padding: 5px;
+}
+
+.yellowbox {
+    position: relative;
+    top: 5%;
+    background-color:teal;
+    color: white;
+    text-align: center;
+    width: 230px;
+    margin: 20px;
+    padding: 5px;
+}
+
+.pinkbox {
+    position: relative;
+    top: 5%;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    width: 150px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.navbox {
+    position: relative;
+    top: 5%;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    width: 100px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.tabbtn {
+    background-color: silver;
+    text-align: center;
+}
+
+.totheright {
+    position: absolute;
+    right:5px;
+}
+
+.bkgrnd {
+    background-color:linen;
+}
+
+.bkgrnd2 {
+    background-color: slategray;
+}
+
+.bkgrnd3 {
+    padding: 8px;
+    background-color: silver;
+}
+
+.bigbox {
+    position: relative;
+    top: 15%;
+    background-color: tan;
+    width: 900px;
+    height: 600px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.bigbox2 {
+    position: relative;
+    top: 5px;
+    padding: 50px;
+    width: 100%;
+    background-color: tan;
+    color: black;
+}
+
+.bigbox3 {
+    position: relative;
+    top: 5px;
+    padding: 50px;
+    width: 100%;
+    background-color:lightgrey;
+    color: black;
+}
+
+.bigbox4 {
+    position: relative;
+    top: 5px;
+    padding: 50px;
+    width: 100%;
+    background-color:rgb(249, 149, 138);
+    color: black;
+}
+
+.bigbox5 {
+    position: relative;
+    top: 5px;
+    padding: 50px;
+    width: 100%;
+    background-color:rosybrown;
+    color: black;
+}
+
+h5 {
+    padding: 15px;
+}
+
+.info {
+    padding: 20px;
+    top: 30px;
+    left: 150%;
+    background-color: silver;
+    width: 250px;
+    height: 750px;
+    margin: 20px;
+}
+
+.links {
+    padding: 20px;
+    background-color: silver;
+    width: 25px;
+    height: 750px;
+    margin: 20px;
+}
+
+.pad {
+    padding:20px;
+    margin:20px;
+}
+
+@media (max-width: 991px) {
+    .data-right {
+        position: relative;
+        top: 30%;
+        left: 0%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .bigbox {
+        position: relative;
+        top: 15%;
+        background-color: tan;
+        width: 500px;
+        height: 1200px;
+        margin: 20px;
+        padding: 15px;
+    }
+}
