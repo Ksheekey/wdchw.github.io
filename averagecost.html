@@ -10,7 +10,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand navbox" href="index.html">Latitude</a>
+    <a class="navbar-brand navbox" href="index.html">Cost of Living</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -22,10 +22,10 @@
             Plots
           </a>
           <div class="dropdown-menu tabbtn" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
-            <a class="dropdown-item" href="humidity.html">Humidity</a>
-            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-            <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+            <a class="dropdown-item" href="./1bedroom.html">Cost of 1 bedroom</a>
+            <a class="dropdown-item" href="./3bedroom.html">Cost of 3 bedroom</a>
+            <a class="dropdown-item" href="./utilities.html">Cost of utilities</a>
+            <a class="dropdown-item" href="./averagecost.html">Average Cost</a>
           </div>
         </li>
         <li class="nav-item">
@@ -37,36 +37,35 @@
       </ul>
     </div>
   </nav>
-
   <hr>
-
   <br>
-  <h1 class="redbox">Cloudiness</h1>
-  <section class="bigbox4">
+  <h1 class="yellowbox">Overall Avergae Costs</h1>
+  <section class="bigbox5">
     <div class="container">
         <div class="row">
-            <img width="500" src="/Resources/Cloudiness.png" alt="Humidity">
-            <h5>The Cloudiness reading on January 5, 2017 tells you that in relation to the equator, cloud cover seems to not really have a coorelation. You can see that most-to-all places experience 0 cloudiness but only a few experience 100% cloudiness. Seems somehwere right about 75% is the most common reading.</h5>
+            <img width="750" src="./Resources/colAVG.png" alt="average">
+            <h5>Here you see the overall average costs for apartments across a number of cities in the USA. The red line moving horizontally across the page is the average. This is showing the average for between a 1 and 3 bedroom, with the utlities factored it. Through this you can see that there is a pretty good spread throughout the dataset. This is where personal preference and personal financial situations play a bigger role. We do notice through all the graphs that certain cities, like San Francisco, tend to stay on the higher side, while cities like Wichita, tends to stay more on the cheaper side.</h5>
         </div>
         <hr>
         <br>
         <div class="row">
-            <img width="150" src="Resources/Fig1.png" alt="Max Temp">
-            <a href="max_temp.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Click here for Max Temp</a>
+            <img width="150" src="./Resources/col1bdrm.png" alt="1 bedroom">
+            <a href="./1bedroom.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">lick here for 1 bedroom costs</a>
         </div>
         <div class="row">
-            <img width="150" src="Resources/Fig2.png" alt="Humidity">
-            <a href="humidity.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Click here for Humidity</a>
+            <img width="150" src="./Resources/col3bdrm.png" alt="3 bedroom">
+            <a href="./3bedroom.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">lick here for 3 bedroom costs</a>
         </div>
         <div class="row">
-            <img width="150" src="Resources/Fig4.png" alt="Wind Speed">
-            <a href="wind_speed.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Click here for Wind Speed</a>
+            <img width="150" src="./Resources/colU.png" alt="utilities">
+            <a href="./utilities.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Click here for utility costs</a>
         </div>
     </div>
 
   </section>
 
 
+ 
 
 
 
